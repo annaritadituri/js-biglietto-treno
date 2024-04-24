@@ -34,4 +34,7 @@ if (age < minors) {
 
 //METTIAMO IL RISULTATO NELLA GIUSTA FORMA E LO FACCIAMO VISUALIZZARE
 totalPrice = totalPrice.toFixed(2);
-console.log("€ " + totalPrice);
+console.log(totalPrice);
+
+//VISUALIZZARE SULLA PAGINE IL PREZZO FINALE
+document.getElementById("price").innerHTML = "Il prezzo del biglietto per percorrere " + kilometers + " chilometri è di €" + totalPrice + ".";
