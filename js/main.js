@@ -10,8 +10,8 @@ kilometers = prompt("Inserisci il numero dei chilometri che vuoi percorrere:");
 age = prompt("Inserisci l'età del passeggero:");
 
 //RENDERE I DATI UTILIZZABILI
-console.log(Number(kilometers));
-console.log(parseInt(age));
+kilometers = Number(kilometers);
+age = parseInt(age);
 
 //CALCOLARE IL TOTALE DEL BIGLIETTO
 const price = 0.21;
